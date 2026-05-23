@@ -1,0 +1,413 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="711pt" height="827pt" viewBox="0.00 0.00 711.00 827.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 823)">
+<title>FBCA_Users_Full</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-823 707.42,-823 707.42,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_users</title>
+<path fill="none" stroke="#50c878" d="M20,-8C20,-8 683.42,-8 683.42,-8 689.42,-8 695.42,-14 695.42,-20 695.42,-20 695.42,-799 695.42,-799 695.42,-805 689.42,-811 683.42,-811 683.42,-811 20,-811 20,-811 14,-811 8,-805 8,-799 8,-799 8,-20 8,-20 8,-14 14,-8 20,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="351.71" y="-794.4" font-family="Times,serif" font-size="14.00">Users module</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_pres</title>
+<polygon fill="none" stroke="gray" stroke-dasharray="5,2" points="29.34,-166 29.34,-243 130.8,-243 130.8,-166 29.34,-166"/>
+<text xml:space="preserve" text-anchor="middle" x="80.07" y="-226.4" font-family="Times,serif" font-size="14.00">presentation/</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_external</title>
+<polygon fill="none" stroke="gray" stroke-dasharray="5,2" points="16,-551 16,-628 144.14,-628 144.14,-551 16,-551"/>
+<text xml:space="preserve" text-anchor="middle" x="80.07" y="-611.4" font-family="Times,serif" font-size="14.00">external/</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_uc_pres</title>
+<polygon fill="none" stroke="gray" stroke-dasharray="5,2" points="178.14,-16 178.14,-393 349.67,-393 349.67,-16 178.14,-16"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-376.4" font-family="Times,serif" font-size="14.00">use-case/presentation/</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_uc_ext</title>
+<polygon fill="none" stroke="gray" stroke-dasharray="5,2" points="189.82,-401 189.82,-778 337.99,-778 337.99,-401 189.82,-401"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-761.4" font-family="Times,serif" font-size="14.00">use-case/external/</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_infra</title>
+<polygon fill="none" stroke="gray" stroke-dasharray="5,2" points="391.67,-233 391.67,-560 556.18,-560 556.18,-233 391.67,-233"/>
+<text xml:space="preserve" text-anchor="middle" x="473.93" y="-543.4" font-family="Times,serif" font-size="14.00">infrastructure/repositories/</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_domain</title>
+<polygon fill="none" stroke="gray" stroke-dasharray="5,2" points="598.18,-233 598.18,-560 687.42,-560 687.42,-233 598.18,-233"/>
+<text xml:space="preserve" text-anchor="middle" x="642.8" y="-543.4" font-family="Times,serif" font-size="14.00">domain/</text>
+</g>
+<!-- UsersController -->
+<g id="node1" class="node">
+<title>UsersController</title>
+<path fill="none" stroke="black" d="M110.8,-210C110.8,-210 49.34,-210 49.34,-210 43.34,-210 37.34,-204 37.34,-198 37.34,-198 37.34,-186 37.34,-186 37.34,-180 43.34,-174 49.34,-174 49.34,-174 110.8,-174 110.8,-174 116.8,-174 122.8,-180 122.8,-186 122.8,-186 122.8,-198 122.8,-198 122.8,-204 116.8,-210 110.8,-210"/>
+<text xml:space="preserve" text-anchor="middle" x="80.07" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">UsersController</text>
+</g>
+<!-- GetProfileHandler -->
+<g id="node3" class="node">
+<title>GetProfileHandler</title>
+<path fill="none" stroke="black" d="M299.65,-60C299.65,-60 228.17,-60 228.17,-60 222.17,-60 216.17,-54 216.17,-48 216.17,-48 216.17,-36 216.17,-36 216.17,-30 222.17,-24 228.17,-24 228.17,-24 299.65,-24 299.65,-24 305.65,-24 311.65,-30 311.65,-36 311.65,-36 311.65,-48 311.65,-48 311.65,-54 305.65,-60 299.65,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-39" font-family="Helvetica,sans-Serif" font-size="10.00">GetProfileHandler</text>
+</g>
+<!-- UsersController&#45;&gt;GetProfileHandler -->
+<g id="edge1" class="edge">
+<title>UsersController-&gt;GetProfileHandler</title>
+<path fill="none" stroke="black" d="M103.37,-173.61C135.63,-147 195.45,-97.65 231.96,-67.53"/>
+<polygon fill="black" stroke="black" points="234.06,-70.34 239.55,-61.27 229.6,-64.94 234.06,-70.34"/>
+</g>
+<!-- UpdateProfileHandler -->
+<g id="node4" class="node">
+<title>UpdateProfileHandler</title>
+<path fill="none" stroke="black" d="M307.71,-110C307.71,-110 220.1,-110 220.1,-110 214.1,-110 208.1,-104 208.1,-98 208.1,-98 208.1,-86 208.1,-86 208.1,-80 214.1,-74 220.1,-74 220.1,-74 307.71,-74 307.71,-74 313.71,-74 319.71,-80 319.71,-86 319.71,-86 319.71,-98 319.71,-98 319.71,-104 313.71,-110 307.71,-110"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-89" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateProfileHandler</text>
+</g>
+<!-- UsersController&#45;&gt;UpdateProfileHandler -->
+<g id="edge2" class="edge">
+<title>UsersController-&gt;UpdateProfileHandler</title>
+<path fill="none" stroke="black" d="M114.42,-173.66C143.94,-157.43 187.2,-133.64 219.42,-115.92"/>
+<polygon fill="black" stroke="black" points="221.06,-119.01 228.13,-111.12 217.69,-112.88 221.06,-119.01"/>
+</g>
+<!-- UpdateAccountSettingsHandler -->
+<g id="node5" class="node">
+<title>UpdateAccountSettingsHandler</title>
+<path fill="none" stroke="black" d="M329.67,-160C329.67,-160 198.14,-160 198.14,-160 192.14,-160 186.14,-154 186.14,-148 186.14,-148 186.14,-136 186.14,-136 186.14,-130 192.14,-124 198.14,-124 198.14,-124 329.67,-124 329.67,-124 335.67,-124 341.67,-130 341.67,-136 341.67,-136 341.67,-148 341.67,-148 341.67,-154 335.67,-160 329.67,-160"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">UpdateAccountSettingsHandler</text>
+</g>
+<!-- UsersController&#45;&gt;UpdateAccountSettingsHandler -->
+<g id="edge3" class="edge">
+<title>UsersController-&gt;UpdateAccountSettingsHandler</title>
+<path fill="none" stroke="black" d="M123.25,-180.4C141.56,-175.37 163.62,-169.3 184.75,-163.49"/>
+<polygon fill="black" stroke="black" points="185.51,-166.91 194.22,-160.89 183.65,-160.16 185.51,-166.91"/>
+</g>
+<!-- UpdatePrivacyHandler -->
+<g id="node6" class="node">
+<title>UpdatePrivacyHandler</title>
+<path fill="none" stroke="black" d="M309.93,-310C309.93,-310 217.88,-310 217.88,-310 211.88,-310 205.88,-304 205.88,-298 205.88,-298 205.88,-286 205.88,-286 205.88,-280 211.88,-274 217.88,-274 217.88,-274 309.93,-274 309.93,-274 315.93,-274 321.93,-280 321.93,-286 321.93,-286 321.93,-298 321.93,-298 321.93,-304 315.93,-310 309.93,-310"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-289" font-family="Helvetica,sans-Serif" font-size="10.00">UpdatePrivacyHandler</text>
+</g>
+<!-- UsersController&#45;&gt;UpdatePrivacyHandler -->
+<g id="edge4" class="edge">
+<title>UsersController-&gt;UpdatePrivacyHandler</title>
+<path fill="none" stroke="black" d="M114.42,-210.34C143.94,-226.57 187.2,-250.36 219.42,-268.08"/>
+<polygon fill="black" stroke="black" points="217.69,-271.12 228.13,-272.88 221.06,-264.99 217.69,-271.12"/>
+</g>
+<!-- UpdatePreferencesHandler -->
+<g id="node7" class="node">
+<title>UpdatePreferencesHandler</title>
+<path fill="none" stroke="black" d="M320.5,-210C320.5,-210 207.32,-210 207.32,-210 201.32,-210 195.32,-204 195.32,-198 195.32,-198 195.32,-186 195.32,-186 195.32,-180 201.32,-174 207.32,-174 207.32,-174 320.5,-174 320.5,-174 326.5,-174 332.5,-180 332.5,-186 332.5,-186 332.5,-198 332.5,-198 332.5,-204 326.5,-210 320.5,-210"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">UpdatePreferencesHandler</text>
+</g>
+<!-- UsersController&#45;&gt;UpdatePreferencesHandler -->
+<g id="edge5" class="edge">
+<title>UsersController-&gt;UpdatePreferencesHandler</title>
+<path fill="none" stroke="black" d="M123.25,-192C141.22,-192 162.79,-192 183.55,-192"/>
+<polygon fill="black" stroke="black" points="183.46,-195.5 193.46,-192 183.46,-188.5 183.46,-195.5"/>
+</g>
+<!-- GetUserStatsHandler -->
+<g id="node8" class="node">
+<title>GetUserStatsHandler</title>
+<path fill="none" stroke="black" d="M307.43,-260C307.43,-260 220.39,-260 220.39,-260 214.39,-260 208.39,-254 208.39,-248 208.39,-248 208.39,-236 208.39,-236 208.39,-230 214.39,-224 220.39,-224 220.39,-224 307.43,-224 307.43,-224 313.43,-224 319.43,-230 319.43,-236 319.43,-236 319.43,-248 319.43,-248 319.43,-254 313.43,-260 307.43,-260"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-239" font-family="Helvetica,sans-Serif" font-size="10.00">GetUserStatsHandler</text>
+</g>
+<!-- UsersController&#45;&gt;GetUserStatsHandler -->
+<g id="edge6" class="edge">
+<title>UsersController-&gt;GetUserStatsHandler</title>
+<path fill="none" stroke="black" d="M123.25,-203.6C145.17,-209.63 172.47,-217.13 197.1,-223.9"/>
+<polygon fill="black" stroke="black" points="196.17,-227.28 206.74,-226.55 198.02,-220.53 196.17,-227.28"/>
+</g>
+<!-- GetCurrentUserHandler -->
+<g id="node9" class="node">
+<title>GetCurrentUserHandler</title>
+<path fill="none" stroke="black" d="M312.71,-360C312.71,-360 215.11,-360 215.11,-360 209.11,-360 203.11,-354 203.11,-348 203.11,-348 203.11,-336 203.11,-336 203.11,-330 209.11,-324 215.11,-324 215.11,-324 312.71,-324 312.71,-324 318.71,-324 324.71,-330 324.71,-336 324.71,-336 324.71,-348 324.71,-348 324.71,-354 318.71,-360 312.71,-360"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-339" font-family="Helvetica,sans-Serif" font-size="10.00">GetCurrentUserHandler</text>
+</g>
+<!-- UsersController&#45;&gt;GetCurrentUserHandler -->
+<g id="edge7" class="edge">
+<title>UsersController-&gt;GetCurrentUserHandler</title>
+<path fill="none" stroke="black" d="M103.37,-210.39C135.63,-237 195.45,-286.35 231.96,-316.47"/>
+<polygon fill="black" stroke="black" points="229.6,-319.06 239.55,-322.73 234.06,-313.66 229.6,-319.06"/>
+</g>
+<!-- UsersExternalService -->
+<g id="node2" class="node">
+<title>UsersExternalService</title>
+<path fill="none" stroke="black" d="M124.14,-595C124.14,-595 36,-595 36,-595 30,-595 24,-589 24,-583 24,-583 24,-571 24,-571 24,-565 30,-559 36,-559 36,-559 124.14,-559 124.14,-559 130.14,-559 136.14,-565 136.14,-571 136.14,-571 136.14,-583 136.14,-583 136.14,-589 130.14,-595 124.14,-595"/>
+<text xml:space="preserve" text-anchor="middle" x="80.07" y="-574" font-family="Helvetica,sans-Serif" font-size="10.00">UsersExternalService</text>
+</g>
+<!-- CreateUserHandler -->
+<g id="node10" class="node">
+<title>CreateUserHandler</title>
+<path fill="none" stroke="black" d="M302.98,-595C302.98,-595 224.83,-595 224.83,-595 218.83,-595 212.83,-589 212.83,-583 212.83,-583 212.83,-571 212.83,-571 212.83,-565 218.83,-559 224.83,-559 224.83,-559 302.98,-559 302.98,-559 308.98,-559 314.98,-565 314.98,-571 314.98,-571 314.98,-583 314.98,-583 314.98,-589 308.98,-595 302.98,-595"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-574" font-family="Helvetica,sans-Serif" font-size="10.00">CreateUserHandler</text>
+</g>
+<!-- UsersExternalService&#45;&gt;CreateUserHandler -->
+<g id="edge8" class="edge">
+<title>UsersExternalService-&gt;CreateUserHandler</title>
+<path fill="none" stroke="black" d="M136.62,-577C156.97,-577 180.13,-577 201.01,-577"/>
+<polygon fill="black" stroke="black" points="200.83,-580.5 210.83,-577 200.83,-573.5 200.83,-580.5"/>
+</g>
+<!-- GetUserByEmailHandler -->
+<g id="node11" class="node">
+<title>GetUserByEmailHandler</title>
+<path fill="none" stroke="black" d="M314.37,-645C314.37,-645 213.45,-645 213.45,-645 207.45,-645 201.45,-639 201.45,-633 201.45,-633 201.45,-621 201.45,-621 201.45,-615 207.45,-609 213.45,-609 213.45,-609 314.37,-609 314.37,-609 320.37,-609 326.37,-615 326.37,-621 326.37,-621 326.37,-633 326.37,-633 326.37,-639 320.37,-645 314.37,-645"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-624" font-family="Helvetica,sans-Serif" font-size="10.00">GetUserByEmailHandler</text>
+</g>
+<!-- UsersExternalService&#45;&gt;GetUserByEmailHandler -->
+<g id="edge9" class="edge">
+<title>UsersExternalService-&gt;GetUserByEmailHandler</title>
+<path fill="none" stroke="black" d="M136.62,-592.27C153.48,-596.91 172.27,-602.08 190.09,-606.98"/>
+<polygon fill="black" stroke="black" points="189.01,-610.31 199.58,-609.59 190.87,-603.56 189.01,-610.31"/>
+</g>
+<!-- CheckUserExistsHandler -->
+<g id="node12" class="node">
+<title>CheckUserExistsHandler</title>
+<path fill="none" stroke="black" d="M315.48,-695C315.48,-695 212.33,-695 212.33,-695 206.33,-695 200.33,-689 200.33,-683 200.33,-683 200.33,-671 200.33,-671 200.33,-665 206.33,-659 212.33,-659 212.33,-659 315.48,-659 315.48,-659 321.48,-659 327.48,-665 327.48,-671 327.48,-671 327.48,-683 327.48,-683 327.48,-689 321.48,-695 315.48,-695"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-674" font-family="Helvetica,sans-Serif" font-size="10.00">CheckUserExistsHandler</text>
+</g>
+<!-- UsersExternalService&#45;&gt;CheckUserExistsHandler -->
+<g id="edge10" class="edge">
+<title>UsersExternalService-&gt;CheckUserExistsHandler</title>
+<path fill="none" stroke="black" d="M114.42,-595.34C143.94,-611.57 187.2,-635.36 219.42,-653.08"/>
+<polygon fill="black" stroke="black" points="217.69,-656.12 228.13,-657.88 221.06,-649.99 217.69,-656.12"/>
+</g>
+<!-- GetFollowingIdsHandler -->
+<g id="node13" class="node">
+<title>GetFollowingIdsHandler</title>
+<path fill="none" stroke="black" d="M313.27,-745C313.27,-745 214.55,-745 214.55,-745 208.55,-745 202.55,-739 202.55,-733 202.55,-733 202.55,-721 202.55,-721 202.55,-715 208.55,-709 214.55,-709 214.55,-709 313.27,-709 313.27,-709 319.27,-709 325.27,-715 325.27,-721 325.27,-721 325.27,-733 325.27,-733 325.27,-739 319.27,-745 313.27,-745"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-724" font-family="Helvetica,sans-Serif" font-size="10.00">GetFollowingIdsHandler</text>
+</g>
+<!-- UsersExternalService&#45;&gt;GetFollowingIdsHandler -->
+<g id="edge11" class="edge">
+<title>UsersExternalService-&gt;GetFollowingIdsHandler</title>
+<path fill="none" stroke="black" d="M103.37,-595.39C135.63,-622 195.45,-671.35 231.96,-701.47"/>
+<polygon fill="black" stroke="black" points="229.6,-704.06 239.55,-707.73 234.06,-698.66 229.6,-704.06"/>
+</g>
+<!-- CanViewContentHandler -->
+<g id="node14" class="node">
+<title>CanViewContentHandler</title>
+<path fill="none" stroke="black" d="M314.94,-545C314.94,-545 212.88,-545 212.88,-545 206.88,-545 200.88,-539 200.88,-533 200.88,-533 200.88,-521 200.88,-521 200.88,-515 206.88,-509 212.88,-509 212.88,-509 314.94,-509 314.94,-509 320.94,-509 326.94,-515 326.94,-521 326.94,-521 326.94,-533 326.94,-533 326.94,-539 320.94,-545 314.94,-545"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00">CanViewContentHandler</text>
+</g>
+<!-- UsersExternalService&#45;&gt;CanViewContentHandler -->
+<g id="edge12" class="edge">
+<title>UsersExternalService-&gt;CanViewContentHandler</title>
+<path fill="none" stroke="black" d="M136.62,-561.73C153.31,-557.14 171.89,-552.03 189.55,-547.17"/>
+<polygon fill="black" stroke="black" points="190.22,-550.62 198.94,-544.59 188.37,-543.87 190.22,-550.62"/>
+</g>
+<!-- GetPublicUserInfoHandler -->
+<g id="node15" class="node">
+<title>GetPublicUserInfoHandler</title>
+<path fill="none" stroke="black" d="M317.99,-445C317.99,-445 209.82,-445 209.82,-445 203.82,-445 197.82,-439 197.82,-433 197.82,-433 197.82,-421 197.82,-421 197.82,-415 203.82,-409 209.82,-409 209.82,-409 317.99,-409 317.99,-409 323.99,-409 329.99,-415 329.99,-421 329.99,-421 329.99,-433 329.99,-433 329.99,-439 323.99,-445 317.99,-445"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-424" font-family="Helvetica,sans-Serif" font-size="10.00">GetPublicUserInfoHandler</text>
+</g>
+<!-- UsersExternalService&#45;&gt;GetPublicUserInfoHandler -->
+<g id="edge13" class="edge">
+<title>UsersExternalService-&gt;GetPublicUserInfoHandler</title>
+<path fill="none" stroke="black" d="M103.37,-558.61C135.63,-532 195.45,-482.65 231.96,-452.53"/>
+<polygon fill="black" stroke="black" points="234.06,-455.34 239.55,-446.27 229.6,-449.94 234.06,-455.34"/>
+</g>
+<!-- IsUserBlockedHandler -->
+<g id="node16" class="node">
+<title>IsUserBlockedHandler</title>
+<path fill="none" stroke="black" d="M309.65,-495C309.65,-495 218.16,-495 218.16,-495 212.16,-495 206.16,-489 206.16,-483 206.16,-483 206.16,-471 206.16,-471 206.16,-465 212.16,-459 218.16,-459 218.16,-459 309.65,-459 309.65,-459 315.65,-459 321.65,-465 321.65,-471 321.65,-471 321.65,-483 321.65,-483 321.65,-489 315.65,-495 309.65,-495"/>
+<text xml:space="preserve" text-anchor="middle" x="263.91" y="-474" font-family="Helvetica,sans-Serif" font-size="10.00">IsUserBlockedHandler</text>
+</g>
+<!-- UsersExternalService&#45;&gt;IsUserBlockedHandler -->
+<g id="edge14" class="edge">
+<title>UsersExternalService-&gt;IsUserBlockedHandler</title>
+<path fill="none" stroke="black" d="M114.42,-558.66C143.94,-542.43 187.2,-518.64 219.42,-500.92"/>
+<polygon fill="black" stroke="black" points="221.06,-504.01 228.13,-496.12 217.69,-497.88 221.06,-504.01"/>
+</g>
+<!-- UserProfileRepository -->
+<g id="node18" class="node">
+<title>UserProfileRepository</title>
+<path fill="none" stroke="black" d="M518.05,-277C518.05,-277 428.8,-277 428.8,-277 422.8,-277 416.8,-271 416.8,-265 416.8,-265 416.8,-253 416.8,-253 416.8,-247 422.8,-241 428.8,-241 428.8,-241 518.05,-241 518.05,-241 524.05,-241 530.05,-247 530.05,-253 530.05,-253 530.05,-265 530.05,-265 530.05,-271 524.05,-277 518.05,-277"/>
+<text xml:space="preserve" text-anchor="middle" x="473.43" y="-256" font-family="Helvetica,sans-Serif" font-size="10.00">UserProfileRepository</text>
+</g>
+<!-- GetProfileHandler&#45;&gt;UserProfileRepository -->
+<g id="edge15" class="edge">
+<title>GetProfileHandler-&gt;UserProfileRepository</title>
+<path fill="none" stroke="black" d="M282.24,-60.13C318.94,-98.5 404.6,-188.07 447.3,-232.72"/>
+<polygon fill="black" stroke="black" points="444.51,-234.87 453.95,-239.68 449.57,-230.03 444.51,-234.87"/>
+</g>
+<!-- UpdateProfileHandler&#45;&gt;UserProfileRepository -->
+<g id="edge16" class="edge">
+<title>UpdateProfileHandler-&gt;UserProfileRepository</title>
+<path fill="none" stroke="black" d="M287.51,-110.19C324.6,-140.04 398.48,-199.49 440.76,-233.52"/>
+<polygon fill="black" stroke="black" points="438.37,-236.09 448.36,-239.63 442.76,-230.63 438.37,-236.09"/>
+</g>
+<!-- UserSettingsRepository -->
+<g id="node19" class="node">
+<title>UserSettingsRepository</title>
+<path fill="none" stroke="black" d="M521.95,-327C521.95,-327 424.9,-327 424.9,-327 418.9,-327 412.9,-321 412.9,-315 412.9,-315 412.9,-303 412.9,-303 412.9,-297 418.9,-291 424.9,-291 424.9,-291 521.95,-291 521.95,-291 527.95,-291 533.95,-297 533.95,-303 533.95,-303 533.95,-315 533.95,-315 533.95,-321 527.95,-327 521.95,-327"/>
+<text xml:space="preserve" text-anchor="middle" x="473.43" y="-306" font-family="Helvetica,sans-Serif" font-size="10.00">UserSettingsRepository</text>
+</g>
+<!-- UpdateAccountSettingsHandler&#45;&gt;UserSettingsRepository -->
+<g id="edge17" class="edge">
+<title>UpdateAccountSettingsHandler-&gt;UserSettingsRepository</title>
+<path fill="none" stroke="black" d="M287.51,-160.19C324.6,-190.04 398.48,-249.49 440.76,-283.52"/>
+<polygon fill="black" stroke="black" points="438.37,-286.09 448.36,-289.63 442.76,-280.63 438.37,-286.09"/>
+</g>
+<!-- UserPrivacyRepository -->
+<g id="node20" class="node">
+<title>UserPrivacyRepository</title>
+<path fill="none" stroke="black" d="M520.27,-427C520.27,-427 426.58,-427 426.58,-427 420.58,-427 414.58,-421 414.58,-415 414.58,-415 414.58,-403 414.58,-403 414.58,-397 420.58,-391 426.58,-391 426.58,-391 520.27,-391 520.27,-391 526.27,-391 532.27,-397 532.27,-403 532.27,-403 532.27,-415 532.27,-415 532.27,-421 526.27,-427 520.27,-427"/>
+<text xml:space="preserve" text-anchor="middle" x="473.43" y="-406" font-family="Helvetica,sans-Serif" font-size="10.00">UserPrivacyRepository</text>
+</g>
+<!-- UpdatePrivacyHandler&#45;&gt;UserPrivacyRepository -->
+<g id="edge18" class="edge">
+<title>UpdatePrivacyHandler-&gt;UserPrivacyRepository</title>
+<path fill="none" stroke="black" d="M297.33,-310.28C333.09,-330.44 390.76,-362.96 430.07,-385.12"/>
+<polygon fill="black" stroke="black" points="428.14,-388.05 438.57,-389.91 431.58,-381.95 428.14,-388.05"/>
+</g>
+<!-- UpdatePreferencesHandler&#45;&gt;UserSettingsRepository -->
+<g id="edge19" class="edge">
+<title>UpdatePreferencesHandler-&gt;UserSettingsRepository</title>
+<path fill="none" stroke="black" d="M297.33,-210.28C333.09,-230.44 390.76,-262.96 430.07,-285.12"/>
+<polygon fill="black" stroke="black" points="428.14,-288.05 438.57,-289.91 431.58,-281.95 428.14,-288.05"/>
+</g>
+<!-- UserStatsRepository -->
+<g id="node21" class="node">
+<title>UserStatsRepository</title>
+<path fill="none" stroke="black" d="M515.28,-377C515.28,-377 431.58,-377 431.58,-377 425.58,-377 419.58,-371 419.58,-365 419.58,-365 419.58,-353 419.58,-353 419.58,-347 425.58,-341 431.58,-341 431.58,-341 515.28,-341 515.28,-341 521.28,-341 527.28,-347 527.28,-353 527.28,-353 527.28,-365 527.28,-365 527.28,-371 521.28,-377 515.28,-377"/>
+<text xml:space="preserve" text-anchor="middle" x="473.43" y="-356" font-family="Helvetica,sans-Serif" font-size="10.00">UserStatsRepository</text>
+</g>
+<!-- GetUserStatsHandler&#45;&gt;UserStatsRepository -->
+<g id="edge20" class="edge">
+<title>GetUserStatsHandler-&gt;UserStatsRepository</title>
+<path fill="none" stroke="black" d="M297.33,-260.28C333.09,-280.44 390.76,-312.96 430.07,-335.12"/>
+<polygon fill="black" stroke="black" points="428.14,-338.05 438.57,-339.91 431.58,-331.95 428.14,-338.05"/>
+</g>
+<!-- UserRepository -->
+<g id="node17" class="node">
+<title>UserRepository</title>
+<path fill="none" stroke="black" d="M503.88,-477C503.88,-477 442.97,-477 442.97,-477 436.97,-477 430.97,-471 430.97,-465 430.97,-465 430.97,-453 430.97,-453 430.97,-447 436.97,-441 442.97,-441 442.97,-441 503.88,-441 503.88,-441 509.88,-441 515.88,-447 515.88,-453 515.88,-453 515.88,-465 515.88,-465 515.88,-471 509.88,-477 503.88,-477"/>
+<text xml:space="preserve" text-anchor="middle" x="473.43" y="-456" font-family="Helvetica,sans-Serif" font-size="10.00">UserRepository</text>
+</g>
+<!-- GetCurrentUserHandler&#45;&gt;UserRepository -->
+<g id="edge21" class="edge">
+<title>GetCurrentUserHandler-&gt;UserRepository</title>
+<path fill="none" stroke="black" d="M297.33,-360.28C333.09,-380.44 390.76,-412.96 430.07,-435.12"/>
+<polygon fill="black" stroke="black" points="428.14,-438.05 438.57,-439.91 431.58,-431.95 428.14,-438.05"/>
+</g>
+<!-- CreateUserHandler&#45;&gt;UserRepository -->
+<g id="edge22" class="edge">
+<title>CreateUserHandler-&gt;UserRepository</title>
+<path fill="none" stroke="black" d="M297.33,-558.56C333.2,-538.17 391.1,-505.25 430.41,-482.89"/>
+<polygon fill="black" stroke="black" points="431.95,-486.04 438.91,-478.06 428.49,-479.96 431.95,-486.04"/>
+</g>
+<!-- GetUserByEmailHandler&#45;&gt;UserRepository -->
+<g id="edge23" class="edge">
+<title>GetUserByEmailHandler-&gt;UserRepository</title>
+<path fill="none" stroke="black" d="M287.51,-608.7C324.7,-578.59 398.87,-518.55 441.1,-484.36"/>
+<polygon fill="black" stroke="black" points="443.1,-487.24 448.67,-478.23 438.7,-481.8 443.1,-487.24"/>
+</g>
+<!-- CheckUserExistsHandler&#45;&gt;UserRepository -->
+<g id="edge24" class="edge">
+<title>CheckUserExistsHandler-&gt;UserRepository</title>
+<path fill="none" stroke="black" d="M282.24,-658.79C318.94,-620.24 404.6,-530.26 447.3,-485.4"/>
+<polygon fill="black" stroke="black" points="449.59,-488.07 453.95,-478.41 444.52,-483.24 449.59,-488.07"/>
+</g>
+<!-- GetFollowingIdsHandler&#45;&gt;UserRepository -->
+<g id="edge25" class="edge">
+<title>GetFollowingIdsHandler-&gt;UserRepository</title>
+<path fill="none" stroke="black" d="M279.17,-708.58C315.02,-662.28 409.04,-540.86 451.31,-486.27"/>
+<polygon fill="black" stroke="black" points="454.06,-488.44 457.41,-478.39 448.52,-484.16 454.06,-488.44"/>
+</g>
+<!-- CanViewContentHandler&#45;&gt;UserPrivacyRepository -->
+<g id="edge26" class="edge">
+<title>CanViewContentHandler-&gt;UserPrivacyRepository</title>
+<path fill="none" stroke="black" d="M297.33,-508.56C333.2,-488.17 391.1,-455.25 430.41,-432.89"/>
+<polygon fill="black" stroke="black" points="431.95,-436.04 438.91,-428.06 428.49,-429.96 431.95,-436.04"/>
+</g>
+<!-- GetPublicUserInfoHandler&#45;&gt;UserProfileRepository -->
+<g id="edge27" class="edge">
+<title>GetPublicUserInfoHandler-&gt;UserProfileRepository</title>
+<path fill="none" stroke="black" d="M287.51,-408.7C324.7,-378.59 398.87,-318.55 441.1,-284.36"/>
+<polygon fill="black" stroke="black" points="443.1,-287.24 448.67,-278.23 438.7,-281.8 443.1,-287.24"/>
+</g>
+<!-- IsUserBlockedHandler&#45;&gt;UserSettingsRepository -->
+<g id="edge28" class="edge">
+<title>IsUserBlockedHandler-&gt;UserSettingsRepository</title>
+<path fill="none" stroke="black" d="M287.51,-458.7C324.7,-428.59 398.87,-368.55 441.1,-334.36"/>
+<polygon fill="black" stroke="black" points="443.1,-337.24 448.67,-328.23 438.7,-331.8 443.1,-337.24"/>
+</g>
+<!-- User -->
+<g id="node23" class="node">
+<title>User</title>
+<path fill="none" stroke="black" d="M657.8,-477C657.8,-477 627.8,-477 627.8,-477 621.8,-477 615.8,-471 615.8,-465 615.8,-465 615.8,-453 615.8,-453 615.8,-447 621.8,-441 627.8,-441 627.8,-441 657.8,-441 657.8,-441 663.8,-441 669.8,-447 669.8,-453 669.8,-453 669.8,-465 669.8,-465 669.8,-471 663.8,-477 657.8,-477"/>
+<text xml:space="preserve" text-anchor="middle" x="642.8" y="-456" font-family="Helvetica,sans-Serif" font-size="10.00">User</text>
+</g>
+<!-- UserRepository&#45;&gt;User -->
+<g id="edge29" class="edge">
+<title>UserRepository-&gt;User</title>
+<path fill="none" stroke="black" d="M516.23,-459C543.27,-459 578.16,-459 604.3,-459"/>
+<polygon fill="black" stroke="black" points="604.12,-462.5 614.12,-459 604.12,-455.5 604.12,-462.5"/>
+</g>
+<!-- UserProfile -->
+<g id="node24" class="node">
+<title>UserProfile</title>
+<path fill="none" stroke="black" d="M663.53,-277C663.53,-277 622.07,-277 622.07,-277 616.07,-277 610.07,-271 610.07,-265 610.07,-265 610.07,-253 610.07,-253 610.07,-247 616.07,-241 622.07,-241 622.07,-241 663.53,-241 663.53,-241 669.53,-241 675.53,-247 675.53,-253 675.53,-253 675.53,-265 675.53,-265 675.53,-271 669.53,-277 663.53,-277"/>
+<text xml:space="preserve" text-anchor="middle" x="642.8" y="-256" font-family="Helvetica,sans-Serif" font-size="10.00">UserProfile</text>
+</g>
+<!-- UserProfileRepository&#45;&gt;UserProfile -->
+<g id="edge30" class="edge">
+<title>UserProfileRepository-&gt;UserProfile</title>
+<path fill="none" stroke="black" d="M530.16,-259C552.36,-259 577.53,-259 598.34,-259"/>
+<polygon fill="black" stroke="black" points="598.21,-262.5 608.21,-259 598.21,-255.5 598.21,-262.5"/>
+</g>
+<!-- UserSettings -->
+<g id="node25" class="node">
+<title>UserSettings</title>
+<path fill="none" stroke="black" d="M667.42,-327C667.42,-327 618.18,-327 618.18,-327 612.18,-327 606.18,-321 606.18,-315 606.18,-315 606.18,-303 606.18,-303 606.18,-297 612.18,-291 618.18,-291 618.18,-291 667.42,-291 667.42,-291 673.42,-291 679.42,-297 679.42,-303 679.42,-303 679.42,-315 679.42,-315 679.42,-321 673.42,-327 667.42,-327"/>
+<text xml:space="preserve" text-anchor="middle" x="642.8" y="-306" font-family="Helvetica,sans-Serif" font-size="10.00">UserSettings</text>
+</g>
+<!-- UserSettingsRepository&#45;&gt;UserSettings -->
+<g id="edge31" class="edge">
+<title>UserSettingsRepository-&gt;UserSettings</title>
+<path fill="none" stroke="black" d="M534.38,-309C554.17,-309 575.89,-309 594.6,-309"/>
+<polygon fill="black" stroke="black" points="594.59,-312.5 604.59,-309 594.59,-305.5 594.59,-312.5"/>
+</g>
+<!-- UserPrivacy -->
+<g id="node26" class="node">
+<title>UserPrivacy</title>
+<path fill="none" stroke="black" d="M665.75,-427C665.75,-427 619.85,-427 619.85,-427 613.85,-427 607.85,-421 607.85,-415 607.85,-415 607.85,-403 607.85,-403 607.85,-397 613.85,-391 619.85,-391 619.85,-391 665.75,-391 665.75,-391 671.75,-391 677.75,-397 677.75,-403 677.75,-403 677.75,-415 677.75,-415 677.75,-421 671.75,-427 665.75,-427"/>
+<text xml:space="preserve" text-anchor="middle" x="642.8" y="-406" font-family="Helvetica,sans-Serif" font-size="10.00">UserPrivacy</text>
+</g>
+<!-- UserPrivacyRepository&#45;&gt;UserPrivacy -->
+<g id="edge32" class="edge">
+<title>UserPrivacyRepository-&gt;UserPrivacy</title>
+<path fill="none" stroke="black" d="M532.5,-409C553.39,-409 576.65,-409 596.32,-409"/>
+<polygon fill="black" stroke="black" points="596.23,-412.5 606.23,-409 596.23,-405.5 596.23,-412.5"/>
+</g>
+<!-- UserStats -->
+<g id="node27" class="node">
+<title>UserStats</title>
+<path fill="none" stroke="black" d="M660.75,-377C660.75,-377 624.85,-377 624.85,-377 618.85,-377 612.85,-371 612.85,-365 612.85,-365 612.85,-353 612.85,-353 612.85,-347 618.85,-341 624.85,-341 624.85,-341 660.75,-341 660.75,-341 666.75,-341 672.75,-347 672.75,-353 672.75,-353 672.75,-365 672.75,-365 672.75,-371 666.75,-377 660.75,-377"/>
+<text xml:space="preserve" text-anchor="middle" x="642.8" y="-356" font-family="Helvetica,sans-Serif" font-size="10.00">UserStats</text>
+</g>
+<!-- UserStatsRepository&#45;&gt;UserStats -->
+<g id="edge33" class="edge">
+<title>UserStatsRepository-&gt;UserStats</title>
+<path fill="none" stroke="black" d="M527.38,-359C551.25,-359 578.99,-359 601.18,-359"/>
+<polygon fill="black" stroke="black" points="601.04,-362.5 611.04,-359 601.04,-355.5 601.04,-362.5"/>
+</g>
+<!-- UserSessionRepository -->
+<g id="node22" class="node">
+<title>UserSessionRepository</title>
+<path fill="none" stroke="black" d="M521.67,-527C521.67,-527 425.18,-527 425.18,-527 419.18,-527 413.18,-521 413.18,-515 413.18,-515 413.18,-503 413.18,-503 413.18,-497 419.18,-491 425.18,-491 425.18,-491 521.67,-491 521.67,-491 527.67,-491 533.67,-497 533.67,-503 533.67,-503 533.67,-515 533.67,-515 533.67,-521 527.67,-527 521.67,-527"/>
+<text xml:space="preserve" text-anchor="middle" x="473.43" y="-506" font-family="Helvetica,sans-Serif" font-size="10.00">UserSessionRepository</text>
+</g>
+<!-- UserSession -->
+<g id="node28" class="node">
+<title>UserSession</title>
+<path fill="none" stroke="black" d="M667.15,-527C667.15,-527 618.46,-527 618.46,-527 612.46,-527 606.46,-521 606.46,-515 606.46,-515 606.46,-503 606.46,-503 606.46,-497 612.46,-491 618.46,-491 618.46,-491 667.15,-491 667.15,-491 673.15,-491 679.15,-497 679.15,-503 679.15,-503 679.15,-515 679.15,-515 679.15,-521 673.15,-527 667.15,-527"/>
+<text xml:space="preserve" text-anchor="middle" x="642.8" y="-506" font-family="Helvetica,sans-Serif" font-size="10.00">UserSession</text>
+</g>
+<!-- UserSessionRepository&#45;&gt;UserSession -->
+<g id="edge34" class="edge">
+<title>UserSessionRepository-&gt;UserSession</title>
+<path fill="none" stroke="black" d="M533.91,-509C553.98,-509 576.09,-509 595.04,-509"/>
+<polygon fill="black" stroke="black" points="594.87,-512.5 604.87,-509 594.87,-505.5 594.87,-512.5"/>
+</g>
+</g>
+</svg>

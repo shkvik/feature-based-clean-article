@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1177pt" height="933pt" viewBox="0.00 0.00 1177.00 933.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 928.8)">
+<title>FBCA_Users_TwoControllers</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-928.8 1173,-928.8 1173,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_users</title>
+<path fill="none" stroke="#50c878" d="M20,-8C20,-8 1149,-8 1149,-8 1155,-8 1161,-14 1161,-20 1161,-20 1161,-904.8 1161,-904.8 1161,-910.8 1155,-916.8 1149,-916.8 1149,-916.8 20,-916.8 20,-916.8 14,-916.8 8,-910.8 8,-904.8 8,-904.8 8,-20 8,-20 8,-14 14,-8 20,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="584.5" y="-900.2" font-family="Times,serif" font-size="14.00">Users module</text>
+</g>
+<!-- UsersProfileController -->
+<g id="node1" class="node">
+<title>UsersProfileController</title>
+<path fill="white" stroke="black" d="M187.47,-884C187.47,-884 58.53,-884 58.53,-884 52.53,-884 46.53,-878 46.53,-872 46.53,-872 46.53,-860 46.53,-860 46.53,-854 52.53,-848 58.53,-848 58.53,-848 187.47,-848 187.47,-848 193.47,-848 199.47,-854 199.47,-860 199.47,-860 199.47,-872 199.47,-872 199.47,-878 193.47,-884 187.47,-884"/>
+<text xml:space="preserve" text-anchor="middle" x="123" y="-861.8" font-family="Helvetica,sans-Serif" font-size="14.00">UsersProfileController</text>
+</g>
+<!-- ProfileUseCases -->
+<g id="node6" class="node">
+<title>ProfileUseCases</title>
+<path fill="white" stroke="black" d="M218.2,-805C218.2,-805 27.8,-805 27.8,-805 21.8,-805 15.8,-799 15.8,-793 15.8,-793 15.8,-655 15.8,-655 15.8,-649 21.8,-643 27.8,-643 27.8,-643 218.2,-643 218.2,-643 224.2,-643 230.2,-649 230.2,-655 230.2,-655 230.2,-793 230.2,-793 230.2,-799 224.2,-805 218.2,-805"/>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-789.4" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">use-case/presentation/profile/</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-775.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetProfileHandler</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-761.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateProfileHandler</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-747.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateBioHandler</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-733.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateAvatarHandler</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-719.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateUsernameHandler</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-705.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateDisplayNameHandler</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-691.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetCurrentUserHandler</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-677.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetUserStatsHandler</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-663.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetFollowingStatsHandler</text>
+<text xml:space="preserve" text-anchor="start" x="23.8" y="-649.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetEngagementStatsHandler</text>
+</g>
+<!-- UsersProfileController&#45;&gt;ProfileUseCases -->
+<g id="edge1" class="edge">
+<title>UsersProfileController-&gt;ProfileUseCases</title>
+<path fill="none" stroke="black" d="M123,-847.55C123,-839.16 123,-828.4 123,-816.75"/>
+<polygon fill="black" stroke="black" points="126.5,-816.87 123,-806.87 119.5,-816.87 126.5,-816.87"/>
+</g>
+<!-- UsersAccountController -->
+<g id="node2" class="node">
+<title>UsersAccountController</title>
+<path fill="white" stroke="black" d="M445.92,-884C445.92,-884 306.08,-884 306.08,-884 300.08,-884 294.08,-878 294.08,-872 294.08,-872 294.08,-860 294.08,-860 294.08,-854 300.08,-848 306.08,-848 306.08,-848 445.92,-848 445.92,-848 451.92,-848 457.92,-854 457.92,-860 457.92,-860 457.92,-872 457.92,-872 457.92,-878 451.92,-884 445.92,-884"/>
+<text xml:space="preserve" text-anchor="middle" x="376" y="-861.8" font-family="Helvetica,sans-Serif" font-size="14.00">UsersAccountController</text>
+</g>
+<!-- AccountUseCases -->
+<g id="node7" class="node">
+<title>AccountUseCases</title>
+<path fill="white" stroke="black" d="M491.45,-812C491.45,-812 260.55,-812 260.55,-812 254.55,-812 248.55,-806 248.55,-800 248.55,-800 248.55,-648 248.55,-648 248.55,-642 254.55,-636 260.55,-636 260.55,-636 491.45,-636 491.45,-636 497.45,-636 503.45,-642 503.45,-648 503.45,-648 503.45,-800 503.45,-800 503.45,-806 497.45,-812 491.45,-812"/>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-796.4" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">use-case/presentation/account/</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-782.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateAccountSettingsHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-768.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateEmailPreferencesHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-754.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateNotificationPreferencesHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-740.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdatePrivacyHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-726.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateBlockingRulesHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-712.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdatePreferencesHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-698.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateLanguageHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-684.4" font-family="Helvetica,sans-Serif" font-size="14.00">UpdateThemeHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-670.4" font-family="Helvetica,sans-Serif" font-size="14.00">RequestAccountDeletionHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-656.4" font-family="Helvetica,sans-Serif" font-size="14.00">RestoreAccountHandler</text>
+<text xml:space="preserve" text-anchor="start" x="256.55" y="-642.4" font-family="Helvetica,sans-Serif" font-size="14.00">ExportUserDataHandler</text>
+</g>
+<!-- UsersAccountController&#45;&gt;AccountUseCases -->
+<g id="edge2" class="edge">
+<title>UsersAccountController-&gt;AccountUseCases</title>
+<path fill="none" stroke="black" d="M376,-847.55C376,-840.83 376,-832.58 376,-823.57"/>
+<polygon fill="black" stroke="black" points="379.5,-823.77 376,-813.77 372.5,-823.77 379.5,-823.77"/>
+</g>
+<!-- UsersIdentityExternalService -->
+<g id="node3" class="node">
+<title>UsersIdentityExternalService</title>
+<path fill="white" stroke="black" d="M702.87,-884C702.87,-884 531.13,-884 531.13,-884 525.13,-884 519.13,-878 519.13,-872 519.13,-872 519.13,-860 519.13,-860 519.13,-854 525.13,-848 531.13,-848 531.13,-848 702.87,-848 702.87,-848 708.87,-848 714.87,-854 714.87,-860 714.87,-860 714.87,-872 714.87,-872 714.87,-878 708.87,-884 702.87,-884"/>
+<text xml:space="preserve" text-anchor="middle" x="617" y="-861.8" font-family="Helvetica,sans-Serif" font-size="14.00">UsersIdentityExternalService</text>
+</g>
+<!-- IdentityUseCases -->
+<g id="node8" class="node">
+<title>IdentityUseCases</title>
+<path fill="white" stroke="black" d="M700.54,-784C700.54,-784 533.46,-784 533.46,-784 527.46,-784 521.46,-778 521.46,-772 521.46,-772 521.46,-676 521.46,-676 521.46,-670 527.46,-664 533.46,-664 533.46,-664 700.54,-664 700.54,-664 706.54,-664 712.54,-670 712.54,-676 712.54,-676 712.54,-772 712.54,-772 712.54,-778 706.54,-784 700.54,-784"/>
+<text xml:space="preserve" text-anchor="start" x="529.46" y="-768.4" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">use-case/external/identity/</text>
+<text xml:space="preserve" text-anchor="start" x="529.46" y="-754.4" font-family="Helvetica,sans-Serif" font-size="14.00">CreateUserHandler</text>
+<text xml:space="preserve" text-anchor="start" x="529.46" y="-740.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetUserByEmailHandler</text>
+<text xml:space="preserve" text-anchor="start" x="529.46" y="-726.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetUserByIdHandler</text>
+<text xml:space="preserve" text-anchor="start" x="529.46" y="-712.4" font-family="Helvetica,sans-Serif" font-size="14.00">CheckUserExistsHandler</text>
+<text xml:space="preserve" text-anchor="start" x="529.46" y="-698.4" font-family="Helvetica,sans-Serif" font-size="14.00">BulkGetUsersHandler</text>
+<text xml:space="preserve" text-anchor="start" x="529.46" y="-684.4" font-family="Helvetica,sans-Serif" font-size="14.00">BulkCheckUsersHandler</text>
+<text xml:space="preserve" text-anchor="start" x="529.46" y="-670.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetUserDisplayInfoHandler</text>
+</g>
+<!-- UsersIdentityExternalService&#45;&gt;IdentityUseCases -->
+<g id="edge3" class="edge">
+<title>UsersIdentityExternalService-&gt;IdentityUseCases</title>
+<path fill="none" stroke="black" d="M617,-847.55C617,-834.26 617,-815 617,-795.67"/>
+<polygon fill="black" stroke="black" points="620.5,-795.84 617,-785.84 613.5,-795.84 620.5,-795.84"/>
+</g>
+<!-- UsersGraphExternalService -->
+<g id="node4" class="node">
+<title>UsersGraphExternalService</title>
+<path fill="white" stroke="black" d="M918.75,-884C918.75,-884 753.25,-884 753.25,-884 747.25,-884 741.25,-878 741.25,-872 741.25,-872 741.25,-860 741.25,-860 741.25,-854 747.25,-848 753.25,-848 753.25,-848 918.75,-848 918.75,-848 924.75,-848 930.75,-854 930.75,-860 930.75,-860 930.75,-872 930.75,-872 930.75,-878 924.75,-884 918.75,-884"/>
+<text xml:space="preserve" text-anchor="middle" x="836" y="-861.8" font-family="Helvetica,sans-Serif" font-size="14.00">UsersGraphExternalService</text>
+</g>
+<!-- GraphUseCases -->
+<g id="node9" class="node">
+<title>GraphUseCases</title>
+<path fill="white" stroke="black" d="M929.27,-784C929.27,-784 742.73,-784 742.73,-784 736.73,-784 730.73,-778 730.73,-772 730.73,-772 730.73,-676 730.73,-676 730.73,-670 736.73,-664 742.73,-664 742.73,-664 929.27,-664 929.27,-664 935.27,-664 941.27,-670 941.27,-676 941.27,-676 941.27,-772 941.27,-772 941.27,-778 935.27,-784 929.27,-784"/>
+<text xml:space="preserve" text-anchor="start" x="738.73" y="-768.4" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">use-case/external/graph/</text>
+<text xml:space="preserve" text-anchor="start" x="738.73" y="-754.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetFollowingIdsHandler</text>
+<text xml:space="preserve" text-anchor="start" x="738.73" y="-740.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetFollowersIdsHandler</text>
+<text xml:space="preserve" text-anchor="start" x="738.73" y="-726.4" font-family="Helvetica,sans-Serif" font-size="14.00">CanViewContentHandler</text>
+<text xml:space="preserve" text-anchor="start" x="738.73" y="-712.4" font-family="Helvetica,sans-Serif" font-size="14.00">CanReceiveNotificationHandler</text>
+<text xml:space="preserve" text-anchor="start" x="738.73" y="-698.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetPublicUserInfoHandler</text>
+<text xml:space="preserve" text-anchor="start" x="738.73" y="-684.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetMutualFollowersHandler</text>
+<text xml:space="preserve" text-anchor="start" x="738.73" y="-670.4" font-family="Helvetica,sans-Serif" font-size="14.00">CheckBlockedByHandler</text>
+</g>
+<!-- UsersGraphExternalService&#45;&gt;GraphUseCases -->
+<g id="edge4" class="edge">
+<title>UsersGraphExternalService-&gt;GraphUseCases</title>
+<path fill="none" stroke="black" d="M836,-847.55C836,-834.26 836,-815 836,-795.67"/>
+<polygon fill="black" stroke="black" points="839.5,-795.84 836,-785.84 832.5,-795.84 839.5,-795.84"/>
+</g>
+<!-- UsersAccessExternalService -->
+<g id="node5" class="node">
+<title>UsersAccessExternalService</title>
+<path fill="white" stroke="black" d="M1140.86,-884C1140.86,-884 969.14,-884 969.14,-884 963.14,-884 957.14,-878 957.14,-872 957.14,-872 957.14,-860 957.14,-860 957.14,-854 963.14,-848 969.14,-848 969.14,-848 1140.86,-848 1140.86,-848 1146.86,-848 1152.86,-854 1152.86,-860 1152.86,-860 1152.86,-872 1152.86,-872 1152.86,-878 1146.86,-884 1140.86,-884"/>
+<text xml:space="preserve" text-anchor="middle" x="1055" y="-861.8" font-family="Helvetica,sans-Serif" font-size="14.00">UsersAccessExternalService</text>
+</g>
+<!-- AccessUseCases -->
+<g id="node10" class="node">
+<title>AccessUseCases</title>
+<path fill="white" stroke="black" d="M1140.7,-791C1140.7,-791 971.3,-791 971.3,-791 965.3,-791 959.3,-785 959.3,-779 959.3,-779 959.3,-669 959.3,-669 959.3,-663 965.3,-657 971.3,-657 971.3,-657 1140.7,-657 1140.7,-657 1146.7,-657 1152.7,-663 1152.7,-669 1152.7,-669 1152.7,-779 1152.7,-779 1152.7,-785 1146.7,-791 1140.7,-791"/>
+<text xml:space="preserve" text-anchor="start" x="967.3" y="-775.4" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">use-case/external/access/</text>
+<text xml:space="preserve" text-anchor="start" x="967.3" y="-761.4" font-family="Helvetica,sans-Serif" font-size="14.00">IsUserBlockedHandler</text>
+<text xml:space="preserve" text-anchor="start" x="967.3" y="-747.4" font-family="Helvetica,sans-Serif" font-size="14.00">IsUserVerifiedHandler</text>
+<text xml:space="preserve" text-anchor="start" x="967.3" y="-733.4" font-family="Helvetica,sans-Serif" font-size="14.00">IsSearchableHandler</text>
+<text xml:space="preserve" text-anchor="start" x="967.3" y="-719.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetUserStatusHandler</text>
+<text xml:space="preserve" text-anchor="start" x="967.3" y="-705.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetUserTierHandler</text>
+<text xml:space="preserve" text-anchor="start" x="967.3" y="-691.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetUserSinceHandler</text>
+<text xml:space="preserve" text-anchor="start" x="967.3" y="-677.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetUserLocaleHandler</text>
+<text xml:space="preserve" text-anchor="start" x="967.3" y="-663.4" font-family="Helvetica,sans-Serif" font-size="14.00">GetUserPermissionsHandler</text>
+</g>
+<!-- UsersAccessExternalService&#45;&gt;AccessUseCases -->
+<g id="edge5" class="edge">
+<title>UsersAccessExternalService-&gt;AccessUseCases</title>
+<path fill="none" stroke="black" d="M1055.12,-847.55C1055.21,-835.83 1055.33,-819.47 1055.45,-802.51"/>
+<polygon fill="black" stroke="black" points="1058.94,-802.86 1055.52,-792.84 1051.94,-802.81 1058.94,-802.86"/>
+</g>
+<!-- Repositories -->
+<g id="node11" class="node">
+<title>Repositories</title>
+<path fill="white" stroke="black" d="M716.89,-600C716.89,-600 517.11,-600 517.11,-600 511.11,-600 505.11,-594 505.11,-588 505.11,-588 505.11,-338 505.11,-338 505.11,-332 511.11,-326 517.11,-326 517.11,-326 716.89,-326 716.89,-326 722.89,-326 728.89,-332 728.89,-338 728.89,-338 728.89,-588 728.89,-588 728.89,-594 722.89,-600 716.89,-600"/>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-584.4" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">infrastructure/repositories/</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-570.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-556.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserProfileRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-542.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserSettingsRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-528.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserPrivacyRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-514.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserPreferencesRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-500.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserStatsRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-486.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserSessionRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-472.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserBlockRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-458.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserVerificationRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-444.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserTierRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-430.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserPermissionsRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-416.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserLocaleRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-402.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserDeletionRequestRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-388.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserExportRequestRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-374.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserEngagementStatsRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-360.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserFollowingCacheRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-346.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserSearchIndexRepository</text>
+<text xml:space="preserve" text-anchor="start" x="513.11" y="-332.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserAuditLogRepository</text>
+</g>
+<!-- ProfileUseCases&#45;&gt;Repositories -->
+<g id="edge6" class="edge">
+<title>ProfileUseCases-&gt;Repositories</title>
+<path fill="none" stroke="black" d="M229.16,-642.62C232.79,-640.34 236.4,-638.12 240,-636 321.63,-587.76 419.14,-543.6 494.54,-512.11"/>
+<polygon fill="black" stroke="black" points="495.74,-515.4 503.63,-508.33 493.05,-508.94 495.74,-515.4"/>
+</g>
+<!-- AccountUseCases&#45;&gt;Repositories -->
+<g id="edge7" class="edge">
+<title>AccountUseCases-&gt;Repositories</title>
+<path fill="none" stroke="black" d="M457.26,-635.68C470.17,-621.8 483.76,-607.19 497.33,-592.61"/>
+<polygon fill="black" stroke="black" points="499.59,-595.32 503.84,-585.62 494.46,-590.55 499.59,-595.32"/>
+</g>
+<!-- IdentityUseCases&#45;&gt;Repositories -->
+<g id="edge8" class="edge">
+<title>IdentityUseCases-&gt;Repositories</title>
+<path fill="none" stroke="black" d="M617,-663.58C617,-647.81 617,-630.06 617,-611.81"/>
+<polygon fill="black" stroke="black" points="620.5,-611.91 617,-601.91 613.5,-611.91 620.5,-611.91"/>
+</g>
+<!-- GraphUseCases&#45;&gt;Repositories -->
+<g id="edge9" class="edge">
+<title>GraphUseCases-&gt;Repositories</title>
+<path fill="none" stroke="black" d="M785.76,-663.58C770.9,-646 753.95,-625.96 736.66,-605.52"/>
+<polygon fill="black" stroke="black" points="739.35,-603.27 730.22,-597.89 734,-607.79 739.35,-603.27"/>
+</g>
+<!-- AccessUseCases&#45;&gt;Repositories -->
+<g id="edge10" class="edge">
+<title>AccessUseCases-&gt;Repositories</title>
+<path fill="none" stroke="black" d="M978.98,-656.7C969.44,-649.41 959.65,-642.35 950,-636 883.18,-592.03 803.76,-550.63 739.23,-519.47"/>
+<polygon fill="black" stroke="black" points="740.9,-516.39 730.37,-515.21 737.87,-522.7 740.9,-516.39"/>
+</g>
+<!-- Domain -->
+<g id="node12" class="node">
+<title>Domain</title>
+<path fill="white" stroke="black" d="M683.43,-290C683.43,-290 550.57,-290 550.57,-290 544.57,-290 538.57,-284 538.57,-278 538.57,-278 538.57,-28 538.57,-28 538.57,-22 544.57,-16 550.57,-16 550.57,-16 683.43,-16 683.43,-16 689.43,-16 695.43,-22 695.43,-28 695.43,-28 695.43,-278 695.43,-278 695.43,-284 689.43,-290 683.43,-290"/>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-274.4" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">domain/</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-260.4" font-family="Helvetica,sans-Serif" font-size="14.00">User</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-246.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserProfile</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-232.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserSettings</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-218.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserPrivacy</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-204.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserPreferences</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-190.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserStats</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-176.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserSession</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-162.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserBlock</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-148.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserVerification</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-134.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserTier</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-120.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserPermissions</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-106.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserLocale</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-92.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserDeletionRequest</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-78.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserExportRequest</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-64.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserEngagementStats</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-50.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserFollowingCache</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-36.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserSearchIndex</text>
+<text xml:space="preserve" text-anchor="start" x="546.57" y="-22.4" font-family="Helvetica,sans-Serif" font-size="14.00">UserAuditLog</text>
+</g>
+<!-- Repositories&#45;&gt;Domain -->
+<g id="edge11" class="edge">
+<title>Repositories-&gt;Domain</title>
+<path fill="none" stroke="black" d="M617,-325.56C617,-317.58 617,-309.53 617,-301.51"/>
+<polygon fill="black" stroke="black" points="620.5,-301.7 617,-291.7 613.5,-301.7 620.5,-301.7"/>
+</g>
+</g>
+</svg>

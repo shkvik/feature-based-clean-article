@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="818pt" height="383pt" viewBox="0.00 0.00 818.00 383.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 379.2)">
+<title>FB_Users_PreCycle</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-379.2 814,-379.2 814,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_users</title>
+<path fill="none" stroke="#50c878" d="M20,-8C20,-8 790,-8 790,-8 796,-8 802,-14 802,-20 802,-20 802,-355.2 802,-355.2 802,-361.2 796,-367.2 790,-367.2 790,-367.2 20,-367.2 20,-367.2 14,-367.2 8,-361.2 8,-355.2 8,-355.2 8,-20 8,-20 8,-14 14,-8 20,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="405" y="-350.6" font-family="Times,serif" font-size="14.00">Users module</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_controllers</title>
+<polygon fill="none" stroke="gray" stroke-dasharray="5,2" points="195,-257.6 195,-334.4 605,-334.4 605,-257.6 195,-257.6"/>
+<text xml:space="preserve" text-anchor="middle" x="400" y="-317.8" font-family="Times,serif" font-size="14.00">Controllers</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_services</title>
+<polygon fill="none" stroke="gray" stroke-dasharray="5,2" points="28,-100.8 28,-249.6 794,-249.6 794,-100.8 28,-100.8"/>
+<text xml:space="preserve" text-anchor="middle" x="411" y="-233" font-family="Times,serif" font-size="14.00">Services</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_entities</title>
+<polygon fill="none" stroke="gray" stroke-dasharray="5,2" points="119,-16 119,-92.8 725,-92.8 725,-16 119,-16"/>
+<text xml:space="preserve" text-anchor="middle" x="422" y="-76.2" font-family="Times,serif" font-size="14.00">entities/</text>
+</g>
+<!-- UsersController -->
+<g id="node1" class="node">
+<title>UsersController</title>
+<path fill="none" stroke="black" d="M304.62,-301.6C304.62,-301.6 215.38,-301.6 215.38,-301.6 209.38,-301.6 203.38,-295.6 203.38,-289.6 203.38,-289.6 203.38,-277.6 203.38,-277.6 203.38,-271.6 209.38,-265.6 215.38,-265.6 215.38,-265.6 304.62,-265.6 304.62,-265.6 310.62,-265.6 316.62,-271.6 316.62,-277.6 316.62,-277.6 316.62,-289.6 316.62,-289.6 316.62,-295.6 310.62,-301.6 304.62,-301.6"/>
+<text xml:space="preserve" text-anchor="middle" x="260" y="-279.4" font-family="Helvetica,sans-Serif" font-size="14.00">UsersController</text>
+</g>
+<!-- UsersService -->
+<g id="node4" class="node">
+<title>UsersService</title>
+<path fill="none" stroke="black" d="M206.62,-144.8C206.62,-144.8 131.38,-144.8 131.38,-144.8 125.38,-144.8 119.38,-138.8 119.38,-132.8 119.38,-132.8 119.38,-120.8 119.38,-120.8 119.38,-114.8 125.38,-108.8 131.38,-108.8 131.38,-108.8 206.62,-108.8 206.62,-108.8 212.62,-108.8 218.62,-114.8 218.62,-120.8 218.62,-120.8 218.62,-132.8 218.62,-132.8 218.62,-138.8 212.62,-144.8 206.62,-144.8"/>
+<text xml:space="preserve" text-anchor="middle" x="169" y="-122.6" font-family="Helvetica,sans-Serif" font-size="14.00">UsersService</text>
+</g>
+<!-- UsersController&#45;&gt;UsersService -->
+<g id="edge1" class="edge">
+<title>UsersController-&gt;UsersService</title>
+<path fill="none" stroke="black" d="M202.93,-282.74C141.43,-281.53 49.33,-275.32 27,-249.6 6.95,-226.51 9.56,-205.92 27,-180.8 45.29,-154.44 78.37,-141.17 108,-134.5"/>
+<polygon fill="black" stroke="black" points="108.56,-137.96 117.67,-132.55 107.17,-131.09 108.56,-137.96"/>
+</g>
+<!-- UserStatsService -->
+<g id="node8" class="node">
+<title>UserStatsService</title>
+<path fill="none" stroke="black" d="M148.07,-216.8C148.07,-216.8 47.93,-216.8 47.93,-216.8 41.93,-216.8 35.93,-210.8 35.93,-204.8 35.93,-204.8 35.93,-192.8 35.93,-192.8 35.93,-186.8 41.93,-180.8 47.93,-180.8 47.93,-180.8 148.07,-180.8 148.07,-180.8 154.07,-180.8 160.07,-186.8 160.07,-192.8 160.07,-192.8 160.07,-204.8 160.07,-204.8 160.07,-210.8 154.07,-216.8 148.07,-216.8"/>
+<text xml:space="preserve" text-anchor="middle" x="98" y="-194.6" font-family="Helvetica,sans-Serif" font-size="14.00">UserStatsService</text>
+</g>
+<!-- UsersController&#45;&gt;UserStatsService -->
+<g id="edge2" class="edge">
+<title>UsersController-&gt;UserStatsService</title>
+<path fill="none" stroke="black" d="M204.62,-265.16C192.62,-260.66 180.18,-255.42 169,-249.6 155.09,-242.36 140.74,-232.77 128.62,-223.94"/>
+<polygon fill="black" stroke="black" points="130.75,-221.16 120.64,-217.98 126.56,-226.77 130.75,-221.16"/>
+</g>
+<!-- UserSessionService -->
+<g id="node9" class="node">
+<title>UserSessionService</title>
+<path fill="none" stroke="black" d="M308.02,-216.8C308.02,-216.8 189.98,-216.8 189.98,-216.8 183.98,-216.8 177.98,-210.8 177.98,-204.8 177.98,-204.8 177.98,-192.8 177.98,-192.8 177.98,-186.8 183.98,-180.8 189.98,-180.8 189.98,-180.8 308.02,-180.8 308.02,-180.8 314.02,-180.8 320.02,-186.8 320.02,-192.8 320.02,-192.8 320.02,-204.8 320.02,-204.8 320.02,-210.8 314.02,-216.8 308.02,-216.8"/>
+<text xml:space="preserve" text-anchor="middle" x="249" y="-194.6" font-family="Helvetica,sans-Serif" font-size="14.00">UserSessionService</text>
+</g>
+<!-- UsersController&#45;&gt;UserSessionService -->
+<g id="edge3" class="edge">
+<title>UsersController-&gt;UserSessionService</title>
+<path fill="none" stroke="black" d="M257.72,-265.44C256.3,-254.75 254.44,-240.72 252.8,-228.37"/>
+<polygon fill="black" stroke="black" points="256.3,-228.17 251.51,-218.72 249.36,-229.09 256.3,-228.17"/>
+</g>
+<!-- ProfileController -->
+<g id="node2" class="node">
+<title>ProfileController</title>
+<path fill="none" stroke="black" d="M439.19,-301.6C439.19,-301.6 346.81,-301.6 346.81,-301.6 340.81,-301.6 334.81,-295.6 334.81,-289.6 334.81,-289.6 334.81,-277.6 334.81,-277.6 334.81,-271.6 340.81,-265.6 346.81,-265.6 346.81,-265.6 439.19,-265.6 439.19,-265.6 445.19,-265.6 451.19,-271.6 451.19,-277.6 451.19,-277.6 451.19,-289.6 451.19,-289.6 451.19,-295.6 445.19,-301.6 439.19,-301.6"/>
+<text xml:space="preserve" text-anchor="middle" x="393" y="-279.4" font-family="Helvetica,sans-Serif" font-size="14.00">ProfileController</text>
+</g>
+<!-- UserProfileService -->
+<g id="node5" class="node">
+<title>UserProfileService</title>
+<path fill="none" stroke="black" d="M457.96,-216.8C457.96,-216.8 350.04,-216.8 350.04,-216.8 344.04,-216.8 338.04,-210.8 338.04,-204.8 338.04,-204.8 338.04,-192.8 338.04,-192.8 338.04,-186.8 344.04,-180.8 350.04,-180.8 350.04,-180.8 457.96,-180.8 457.96,-180.8 463.96,-180.8 469.96,-186.8 469.96,-192.8 469.96,-192.8 469.96,-204.8 469.96,-204.8 469.96,-210.8 463.96,-216.8 457.96,-216.8"/>
+<text xml:space="preserve" text-anchor="middle" x="404" y="-194.6" font-family="Helvetica,sans-Serif" font-size="14.00">UserProfileService</text>
+</g>
+<!-- ProfileController&#45;&gt;UserProfileService -->
+<g id="edge4" class="edge">
+<title>ProfileController-&gt;UserProfileService</title>
+<path fill="none" stroke="black" d="M395.28,-265.44C396.7,-254.75 398.56,-240.72 400.2,-228.37"/>
+<polygon fill="black" stroke="black" points="403.64,-229.09 401.49,-218.72 396.7,-228.17 403.64,-229.09"/>
+</g>
+<!-- SettingsController -->
+<g id="node3" class="node">
+<title>SettingsController</title>
+<path fill="none" stroke="black" d="M584.64,-301.6C584.64,-301.6 481.36,-301.6 481.36,-301.6 475.36,-301.6 469.36,-295.6 469.36,-289.6 469.36,-289.6 469.36,-277.6 469.36,-277.6 469.36,-271.6 475.36,-265.6 481.36,-265.6 481.36,-265.6 584.64,-265.6 584.64,-265.6 590.64,-265.6 596.64,-271.6 596.64,-277.6 596.64,-277.6 596.64,-289.6 596.64,-289.6 596.64,-295.6 590.64,-301.6 584.64,-301.6"/>
+<text xml:space="preserve" text-anchor="middle" x="533" y="-279.4" font-family="Helvetica,sans-Serif" font-size="14.00">SettingsController</text>
+</g>
+<!-- UserSettingsService -->
+<g id="node6" class="node">
+<title>UserSettingsService</title>
+<path fill="none" stroke="black" d="M618.41,-216.8C618.41,-216.8 499.59,-216.8 499.59,-216.8 493.59,-216.8 487.59,-210.8 487.59,-204.8 487.59,-204.8 487.59,-192.8 487.59,-192.8 487.59,-186.8 493.59,-180.8 499.59,-180.8 499.59,-180.8 618.41,-180.8 618.41,-180.8 624.41,-180.8 630.41,-186.8 630.41,-192.8 630.41,-192.8 630.41,-204.8 630.41,-204.8 630.41,-210.8 624.41,-216.8 618.41,-216.8"/>
+<text xml:space="preserve" text-anchor="middle" x="559" y="-194.6" font-family="Helvetica,sans-Serif" font-size="14.00">UserSettingsService</text>
+</g>
+<!-- SettingsController&#45;&gt;UserSettingsService -->
+<g id="edge5" class="edge">
+<title>SettingsController-&gt;UserSettingsService</title>
+<path fill="none" stroke="black" d="M538.39,-265.44C541.78,-254.64 546.24,-240.43 550.15,-227.99"/>
+<polygon fill="black" stroke="black" points="553.42,-229.25 553.08,-218.66 546.74,-227.16 553.42,-229.25"/>
+</g>
+<!-- UserPrivacyService -->
+<g id="node7" class="node">
+<title>UserPrivacyService</title>
+<path fill="none" stroke="black" d="M774.07,-216.8C774.07,-216.8 659.93,-216.8 659.93,-216.8 653.93,-216.8 647.93,-210.8 647.93,-204.8 647.93,-204.8 647.93,-192.8 647.93,-192.8 647.93,-186.8 653.93,-180.8 659.93,-180.8 659.93,-180.8 774.07,-180.8 774.07,-180.8 780.07,-180.8 786.07,-186.8 786.07,-192.8 786.07,-192.8 786.07,-204.8 786.07,-204.8 786.07,-210.8 780.07,-216.8 774.07,-216.8"/>
+<text xml:space="preserve" text-anchor="middle" x="717" y="-194.6" font-family="Helvetica,sans-Serif" font-size="14.00">UserPrivacyService</text>
+</g>
+<!-- SettingsController&#45;&gt;UserPrivacyService -->
+<g id="edge6" class="edge">
+<title>SettingsController-&gt;UserPrivacyService</title>
+<path fill="none" stroke="black" d="M597.1,-265.66C611.17,-261.12 625.8,-255.73 639,-249.6 654.48,-242.41 670.54,-232.61 684.03,-223.61"/>
+<polygon fill="black" stroke="black" points="685.83,-226.62 692.11,-218.1 681.88,-220.84 685.83,-226.62"/>
+</g>
+<!-- User -->
+<g id="node10" class="node">
+<title>User</title>
+<path fill="none" stroke="black" d="M169,-60C169,-60 139,-60 139,-60 133,-60 127,-54 127,-48 127,-48 127,-36 127,-36 127,-30 133,-24 139,-24 139,-24 169,-24 169,-24 175,-24 181,-30 181,-36 181,-36 181,-48 181,-48 181,-54 175,-60 169,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-37.8" font-family="Helvetica,sans-Serif" font-size="14.00">User</text>
+</g>
+<!-- UsersService&#45;&gt;User -->
+<g id="edge7" class="edge">
+<title>UsersService-&gt;User</title>
+<path fill="none" stroke="black" d="M165.89,-108.64C163.95,-97.95 161.41,-83.92 159.18,-71.57"/>
+<polygon fill="black" stroke="black" points="162.65,-71.12 157.43,-61.91 155.76,-72.37 162.65,-71.12"/>
+</g>
+<!-- UserProfileService&#45;&gt;UsersService -->
+<g id="edge13" class="edge">
+<title>UserProfileService-&gt;UsersService</title>
+<path fill="none" stroke="black" d="M345.31,-180.32C310.07,-169.82 265.33,-156.49 229.73,-145.89"/>
+<polygon fill="black" stroke="black" points="231.04,-142.63 220.45,-143.13 229.04,-149.34 231.04,-142.63"/>
+</g>
+<!-- UserProfile -->
+<g id="node11" class="node">
+<title>UserProfile</title>
+<path fill="none" stroke="black" d="M480.62,-60C480.62,-60 419.38,-60 419.38,-60 413.38,-60 407.38,-54 407.38,-48 407.38,-48 407.38,-36 407.38,-36 407.38,-30 413.38,-24 419.38,-24 419.38,-24 480.62,-24 480.62,-24 486.62,-24 492.62,-30 492.62,-36 492.62,-36 492.62,-48 492.62,-48 492.62,-54 486.62,-60 480.62,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="450" y="-37.8" font-family="Helvetica,sans-Serif" font-size="14.00">UserProfile</text>
+</g>
+<!-- UserProfileService&#45;&gt;UserProfile -->
+<g id="edge8" class="edge">
+<title>UserProfileService-&gt;UserProfile</title>
+<path fill="none" stroke="black" d="M409.19,-180.34C417.1,-153.72 432.25,-102.73 441.7,-70.93"/>
+<polygon fill="black" stroke="black" points="444.98,-72.19 444.47,-61.61 438.27,-70.2 444.98,-72.19"/>
+</g>
+<!-- UserSettingsService&#45;&gt;UsersService -->
+<g id="edge14" class="edge">
+<title>UserSettingsService-&gt;UsersService</title>
+<path fill="none" stroke="black" d="M487.5,-182.46C484.63,-181.89 481.79,-181.33 479,-180.8 392.93,-164.3 292.92,-147.66 230.29,-137.54"/>
+<polygon fill="black" stroke="black" points="230.97,-134.1 220.54,-135.96 229.85,-141.01 230.97,-134.1"/>
+</g>
+<!-- UserSettings -->
+<g id="node12" class="node">
+<title>UserSettings</title>
+<path fill="none" stroke="black" d="M595.07,-60C595.07,-60 522.93,-60 522.93,-60 516.93,-60 510.93,-54 510.93,-48 510.93,-48 510.93,-36 510.93,-36 510.93,-30 516.93,-24 522.93,-24 522.93,-24 595.07,-24 595.07,-24 601.07,-24 607.07,-30 607.07,-36 607.07,-36 607.07,-48 607.07,-48 607.07,-54 601.07,-60 595.07,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="559" y="-37.8" font-family="Helvetica,sans-Serif" font-size="14.00">UserSettings</text>
+</g>
+<!-- UserSettingsService&#45;&gt;UserSettings -->
+<g id="edge9" class="edge">
+<title>UserSettingsService-&gt;UserSettings</title>
+<path fill="none" stroke="black" d="M559,-180.34C559,-153.84 559,-103.18 559,-71.35"/>
+<polygon fill="black" stroke="black" points="562.5,-71.67 559,-61.67 555.5,-71.67 562.5,-71.67"/>
+</g>
+<!-- UserPrivacyService&#45;&gt;UsersService -->
+<g id="edge15" class="edge">
+<title>UserPrivacyService-&gt;UsersService</title>
+<path fill="none" stroke="black" d="M647.75,-182.32C644.8,-181.78 641.87,-181.27 639,-180.8 493.27,-156.77 320.31,-140.34 230.32,-132.7"/>
+<polygon fill="black" stroke="black" points="230.74,-129.22 220.48,-131.87 230.15,-136.2 230.74,-129.22"/>
+</g>
+<!-- UserPrivacy -->
+<g id="node13" class="node">
+<title>UserPrivacy</title>
+<path fill="none" stroke="black" d="M704.73,-60C704.73,-60 637.27,-60 637.27,-60 631.27,-60 625.27,-54 625.27,-48 625.27,-48 625.27,-36 625.27,-36 625.27,-30 631.27,-24 637.27,-24 637.27,-24 704.73,-24 704.73,-24 710.73,-24 716.73,-30 716.73,-36 716.73,-36 716.73,-48 716.73,-48 716.73,-54 710.73,-60 704.73,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="671" y="-37.8" font-family="Helvetica,sans-Serif" font-size="14.00">UserPrivacy</text>
+</g>
+<!-- UserPrivacyService&#45;&gt;UserPrivacy -->
+<g id="edge10" class="edge">
+<title>UserPrivacyService-&gt;UserPrivacy</title>
+<path fill="none" stroke="black" d="M711.81,-180.34C703.9,-153.72 688.75,-102.73 679.3,-70.93"/>
+<polygon fill="black" stroke="black" points="682.73,-70.2 676.53,-61.61 676.02,-72.19 682.73,-70.2"/>
+</g>
+<!-- UserStatsService&#45;&gt;UsersService -->
+<g id="edge16" class="edge">
+<title>UserStatsService-&gt;UsersService</title>
+<path fill="none" stroke="black" d="M115.55,-180.5C123.98,-172.19 134.23,-162.08 143.5,-152.94"/>
+<polygon fill="black" stroke="black" points="145.91,-155.48 150.57,-145.97 141,-150.5 145.91,-155.48"/>
+</g>
+<!-- UserStats -->
+<g id="node14" class="node">
+<title>UserStats</title>
+<path fill="none" stroke="black" d="M264.73,-60C264.73,-60 211.27,-60 211.27,-60 205.27,-60 199.27,-54 199.27,-48 199.27,-48 199.27,-36 199.27,-36 199.27,-30 205.27,-24 211.27,-24 211.27,-24 264.73,-24 264.73,-24 270.73,-24 276.73,-30 276.73,-36 276.73,-36 276.73,-48 276.73,-48 276.73,-54 270.73,-60 264.73,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="238" y="-37.8" font-family="Helvetica,sans-Serif" font-size="14.00">UserStats</text>
+</g>
+<!-- UserStatsService&#45;&gt;UserStats -->
+<g id="edge11" class="edge">
+<title>UserStatsService-&gt;UserStats</title>
+<path fill="none" stroke="black" d="M157.07,-180.32C186.93,-170.24 218.78,-157.16 228,-144.8 243.5,-124.02 244.57,-93.84 242.63,-71.74"/>
+<polygon fill="black" stroke="black" points="246.12,-71.43 241.49,-61.9 239.17,-72.24 246.12,-71.43"/>
+</g>
+<!-- UserSessionService&#45;&gt;UsersService -->
+<g id="edge17" class="edge">
+<title>UserSessionService-&gt;UsersService</title>
+<path fill="none" stroke="black" d="M229.22,-180.5C219.61,-172.08 207.88,-161.82 197.33,-152.59"/>
+<polygon fill="black" stroke="black" points="199.79,-150.09 189.96,-146.14 195.19,-155.36 199.79,-150.09"/>
+</g>
+<!-- UserSession -->
+<g id="node15" class="node">
+<title>UserSession</title>
+<path fill="none" stroke="black" d="M377.68,-60C377.68,-60 306.32,-60 306.32,-60 300.32,-60 294.32,-54 294.32,-48 294.32,-48 294.32,-36 294.32,-36 294.32,-30 300.32,-24 306.32,-24 306.32,-24 377.68,-24 377.68,-24 383.68,-24 389.68,-30 389.68,-36 389.68,-36 389.68,-48 389.68,-48 389.68,-54 383.68,-60 377.68,-60"/>
+<text xml:space="preserve" text-anchor="middle" x="342" y="-37.8" font-family="Helvetica,sans-Serif" font-size="14.00">UserSession</text>
+</g>
+<!-- UserSessionService&#45;&gt;UserSession -->
+<g id="edge12" class="edge">
+<title>UserSessionService-&gt;UserSession</title>
+<path fill="none" stroke="black" d="M259.49,-180.34C275.69,-153.37 306.92,-101.38 325.97,-69.68"/>
+<polygon fill="black" stroke="black" points="328.76,-71.83 330.91,-61.45 322.76,-68.22 328.76,-71.83"/>
+</g>
+</g>
+</svg>
